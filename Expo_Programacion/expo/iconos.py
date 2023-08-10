@@ -54,8 +54,8 @@ class MainWindow(QMainWindow):
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     app.setStyle("Fusion")
-    with open("style.css", "r") as file:
-       app.setStyleSheet(file.read())
+    #with open("style.css", "r") as file:
+    #   app.setStyleSheet(file.read())
     
     #dark fusion https://gist.github.com/lschmierer/443b8e21ad93e2a2d7eb
    
