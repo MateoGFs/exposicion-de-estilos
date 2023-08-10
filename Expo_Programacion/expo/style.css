@@ -1,0 +1,97 @@
+.QWidget {
+    background-color: #2A88C1
+}
+
+QPushButton#inicio {
+    background-color:#f44336;
+    color: black;
+    border: 2px outset;
+    margin: 10px;
+    padding: 5px;
+    font-family: "Century Gothic";
+    font-size: 20px;
+    font-weight: bold;
+    icon: url("img/play.png");
+    icon-size: 20px 20px;  
+}
+
+QPushButton#inicio:hover {
+    background-color: rgb(252, 184, 96);
+    color: white;    
+}
+
+.QLineEdit {
+    background-color: rgba(250, 235, 215, 0.845);
+    color:#000;
+    font-family: "Century Gothic", oblique;
+    font-size: 24px;
+    border: 3px solid #47c5b0;
+    border-radius: 10px;
+}
+
+.QLineEdit:hover {
+    border: 3px solid #227567;   
+}
+
+.QLabel {
+    font-size: 20px;
+    font-family: "Century Gothic", oblique;
+}
+
+.QLabel#estado {
+    color: #b31005;
+    font-weight: 900;
+}
+
+QPushButton#jugar:disabled {
+    background-color: #ddddddd8;
+    color: black;
+}
+
+QPushButton:pressed {
+    background-color: rgb(255, 136, 209);
+}
+
+.QPushButton#jugar {
+    font-family: "Century Gothic", oblique;
+    font-size: 30px;
+    font-weight: bold;
+    background-color:#f44336;
+    color: #000;
+    border: 3px double #000;
+    border-radius: 10%;
+    margin: 10px;
+    padding: 5px;    
+}
+
+.QPushButton#jugar:hover {
+    background-color: rgb(252, 184, 96);
+    color: #fff;    
+}
+
+.QPushButton#jugar:pressed {
+    background-color: rgb(255, 136, 209);
+    border-width: 5px;
+    border-style: inset;  
+}
+
+.QLabel#titulo {
+    font-size: 20px;
+    font-family: "Century Gothic";
+    font-weight: bold;
+    border-width: 5px;
+    border-style: dashed dotted ridge double;
+    border-color: #3f8 #3df;
+    border-radius: 20px;
+    padding: 10px; 
+}
+
+.QPushButton#about{
+    background-color: #4cc8b3;
+    border-radius: 19px;
+}
+
+.QPushButton#about:hover{
+    background-color: #227567;
+    border-radius: 19px;
+}
